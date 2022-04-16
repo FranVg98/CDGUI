@@ -13,7 +13,7 @@ namespace GUI
             Cliente cliente = new Cliente();
 
             //mandar primer rango
-            //ip
+            //ip mensaje y puerto
             cliente.Connect("", mensaje, "8888");
 
             Thread.Sleep(1000);
